@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+#grid-wrapper > div{    height: 100vh;}
+#n1{    background-color: violet;}
+#n2{    background-color: coral;}
+#n3{    background-color: aqua; }

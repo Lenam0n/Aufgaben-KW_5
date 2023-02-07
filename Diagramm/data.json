@@ -1,0 +1,5 @@
+{
+    "labels": ["Jan", "Feb", "Mar"],
+    "values": [10, 20, 30],
+    "colors": ["red", "blue", "green"]
+  }
