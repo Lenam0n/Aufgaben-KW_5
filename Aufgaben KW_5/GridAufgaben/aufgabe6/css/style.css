@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{ display: grid; }
+.flex{ display: flex; }
+
+table{
+    width: 99.1vw;
+}
+
+thead{
+    height: 20px;
+    background-color: blueviolet;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+tbody{
+    height:100vh;
+    background-color: turquoise;
+    grid-template-columns: repeat(5 , 1fr);
+}
+tfoot{
+    height: 20px;
+    background-color: coral;
+    grid-template-columns: repeat(2, 1fr) ;
+}
+
+table tbody tr:nth-child(1){
+    background-color: slateblue;
+}
+table tbody tr:nth-child(3){
+    background-color: cadetblue;
+}
+table tbody tr:nth-child(5){
+    background-color: hotpink;
+}

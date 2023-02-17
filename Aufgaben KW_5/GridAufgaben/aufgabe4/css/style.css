@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{ display: grid;  }
+.flex{ display: flex;  }
+
+#wrapper{
+    height: 100vh;
+    width: 1300px;
+    margin: auto;
+}
+#wrapper > div{
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+}
+
+#sidebar{
+    background-color: coral;
+}
+
+#main-content{
+    background-color: violet;
+}
+
